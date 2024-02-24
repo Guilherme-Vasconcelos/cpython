@@ -297,7 +297,7 @@ extern "C" {
  *    int _Py_HOT_FUNCTION x(void) { return 3; }
  *
  * Issue #28618: This attribute must not be abused, otherwise it can have a
- * negative effect on performance. Only the functions were Python spend most of
+ * negative effect on performance. Only the functions where Python spends most of
  * its time must use it. Use a profiler when running performance benchmark
  * suite to find these functions.
  */
